@@ -1,0 +1,8 @@
+touch .env
+(add OPENAI_API_KEY to .env file)
+
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+
+python agent.py
